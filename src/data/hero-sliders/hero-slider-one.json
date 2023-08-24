@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Mua sắm trực tuyến",
+    "subtitle": "Nhiều sản phẩm đang chờ đợi bạn",
+    "image": "/assets/img/slider/single-slide-hm1-2.png",
+    "url": "/mua-sam-online"
+  },
+  {
+    "id": 2,
+    "title": "Smart Products",
+    "subtitle": "Summer Offer 2024 Collection",
+    "image": "/assets/img/slider/single-slide-1.png",
+    "url": "/shop-grid-standard"
+  }
+]

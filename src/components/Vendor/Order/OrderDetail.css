@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+/* src/components/OrderDetail.css */
+.order-detail {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+}
+
+.item-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-card .card-body {
+  flex: 1;
+}
+
+.customer-info {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.order-total {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.order-total .grand-total {
+  color: #ff9800;
+}
+
+.detail-price {
+  font-size: 20px;
+}
+.content-order-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .text-content {
+  text-align: center;
+} */

@@ -1,0 +1,57 @@
+.content-wrapper {
+    flex: 1;
+    padding: 1rem;
+}
+
+.search-box {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #ced4da;
+    /* Add border */
+    border-radius: 6px;
+    /* Add border-radius */
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    padding-left: 2.25rem;
+}
+
+.search-box i {
+    position: absolute;
+    left: 0.75rem;
+    top: 0.5rem;
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #dee2e6;
+    /* Add border */
+}
+
+.table th,
+.table td {
+    border: 1px solid #dee2e6;
+    /* Add border */
+    padding: 0.75rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.pagination-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.action-column {
+    width: 1%;
+    white-space: nowrap;
+}

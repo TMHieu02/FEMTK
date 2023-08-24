@@ -1,0 +1,9 @@
+.icon{
+    margin: 0px 10em;
+    .item{
+        margin-left: 1em;
+    }
+    .item:first-child {
+        margin-left: -1em; /* cách lề trái cho đối tượng đầu tiên */
+      }
+}

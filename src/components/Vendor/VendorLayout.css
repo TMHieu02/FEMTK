@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.vendor-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d16848;
+  color: #f7fafc;
+  padding: 10px;
+}
+.shop-title {
+  margin: 0;
+  flex-grow: 1; /* Thêm thuộc tính flex-grow để chiếm hết khoảng trống còn lại trong topbar */
+  text-align: center;
+  font-weight: bold;
+  color: antiquewhite;
+  font-size: 30px;
+}
+
+.profile-btn {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #f7fafc;
+  cursor: pointer;
+}
+
+.profile-btn span {
+  margin-left: 5px;
+}
+.shop-title {
+  margin: 0 0 20px;
+}
+
+.profile-btn {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #f7fafc;
+  cursor: pointer;
+}
+
+.profile-btn span {
+  margin-left: 5px;
+}
+
+.main {
+  display: flex;
+  flex-grow: 1;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #d16848;
+  color: #f7fafc;
+  transition: all 0.3s ease;
+}
+
+.sidebar.expanded {
+  width: 200px;
+}
+
+.sidebar.collapsed {
+  width: 60px;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar-toggle {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #f7fafc;
+  cursor: pointer;
+}
+.nav-items-container {
+  font-size: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav-item-text {
+  margin-left: 1rem;
+  /* Adjust this value as desired */
+}
+.nav-item {
+  padding: 0.5rem 1rem;
+  color: black;
+  margin-bottom: 5px;
+  /* added this line */
+}
+.sidebar-menu {
+  flex-grow: 1;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sidebar-menu ul {
+  list-style-type: none;
+  display: block;
+}
+
+.sidebar-menu li {
+  display: inline-block; /* Thay đổi kiểu hiển thị của các item trong sidebar thành inline-block để chúng xếp thành hàng */
+  align-items: center;
+  padding: 10px;
+}
+
+.sidebar-menu li:hover {
+  background-color: #4a5568;
+}
+
+.sidebar-menu a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #f7fafc;
+}
+
+.sidebar-menu a span {
+  margin-left: 10px;
+}
+
+.sidebar-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.logout-btn {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #f7fafc;
+  cursor: pointer;
+}
+
+.logout-btn span {
+  margin-left: 5px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #d16848;
+  color: #f7fafc;
+  text-align: center;
+  padding: 10px;
+}

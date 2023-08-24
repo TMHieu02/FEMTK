@@ -1,0 +1,190 @@
+.product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-form label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.product-form input,
+.product-form textarea,
+.product-form select {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.product-form .columns {
+  display: flex;
+  gap: 2rem;
+}
+
+.product-form .column {
+  flex: 1;
+}
+
+.product-form .attribute-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.product-form .attribute-value {
+  margin-left: 1rem;
+}
+.attribute-container .input {
+  width: 50%;
+}
+/* .product-form button[type='button'] {
+  background-color: #f44336;
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.product-form button[type='submit'] {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+} */
+
+.add-attribute-button {
+  background: #f44336;
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.remove-image-button {
+  background-color: #f44336;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.image-preview {
+  display: inline-block;
+  position: relative;
+}
+
+.image-preview img {
+  width: 550px;
+  height: auto;
+  object-fit: cover;
+}
+.attribute {
+  display: flex;
+}
+.attribute-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: auto;
+}
+
+.attribute-container label {
+  margin-bottom: 0.5rem;
+}
+
+.attribute-container input,
+.attribute-value input {
+  margin-left: 0;
+  width: auto;
+}
+
+.remove-attribute-button,
+.remove-attribute-value-button,
+.add-attribute-value-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin-left: 1rem;
+}
+
+.attribute-value {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.attribute-value label {
+  margin-left: 0;
+  margin-bottom: 0.5rem;
+}
+
+.image-container {
+  position: relative;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.image-preview {
+  width: 550px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* .add-attribute-button,
+.image-uploa {
+  background: none;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+} */
+
+.image-upload {
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.image-upload input {
+  display: none;
+}
+.image-upload:hover {
+  background-color: #ac3ada;
+}
+
+button[type='submit'] {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border-radius: 20px;
+}
+
+button[type='submit']:hover {
+  background-color: #0069d9;
+}

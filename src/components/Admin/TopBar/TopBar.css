@@ -1,0 +1,38 @@
+.topbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: blue;
+    margin: 0;
+}
+
+.topbar .nav-link {
+    color: inherit;
+}
+
+.profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.topbar-nav {
+    margin-left: auto;
+}
+
+.dropdown-menu {
+    min-width: auto;
+    right: 0px;
+    /* Add the right margin */
+    left: auto;
+    transform: translateX(-10px)
+}
+
+/* .dropdown-item {
+    padding: 0.25rem 1.5rem;
+} */

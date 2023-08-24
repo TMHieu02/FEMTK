@@ -1,0 +1,16 @@
+name: "publish npti"
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-node:
+    runs-on: ubuntu-latest
+    container:
+      image: node:16
+    steps:
+      - run: node --version
+      - run: npm --version
+      - uses: actions/checkout@v2
+      - run: npm install
+      - run: node app.js

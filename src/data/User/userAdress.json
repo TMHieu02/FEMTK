@@ -1,0 +1,44 @@
+[
+  {
+    "city": "Hanoi",
+    "country": "Vietnam",
+    "district": "Cau Giay",
+    "nameRecipient": "John",
+    "numberPhone": "0987654321",
+    "ward": "Dich Vong Hau",
+    "zipcode": "100000",
+    "userId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "isDeleted": true,
+    "createdAt": "2023-04-04T04:47:13.286Z",
+    "updatedAt": "2023-04-04T04:47:13.286Z"
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "district": "District 1",
+    "nameRecipient": "Mary",
+    "numberPhone": "0123456789",
+    "ward": "Ben Nghe",
+    "zipcode": "700000",
+    "userId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa7",
+    "isDeleted": false,
+    "createdAt": "2023-04-03T04:47:13.286Z",
+    "updatedAt": "2023-04-03T04:47:13.286Z"
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "district": "Manhattan",
+    "nameRecipient": "Peter",
+    "numberPhone": "555-1234",
+    "ward": "Midtown",
+    "zipcode": "10018",
+    "userId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa8",
+    "isDeleted": false,
+    "createdAt": "2023-04-02T04:47:13.286Z",
+    "updatedAt": "2023-04-02T04:47:13.286Z"
+  }
+]

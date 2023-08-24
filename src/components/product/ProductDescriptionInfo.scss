@@ -1,0 +1,73 @@
+.attribute-input{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+    &:focus{
+        outline: none;
+    }
+}
+// .attribute-group {
+//     display: flex;
+//     flex-wrap: wrap;
+//     align-items: center;
+//     margin-top: 10px;
+//   }
+  
+//   .attribute-group p {
+//     flex: 0 0 150px; /* chiều rộng cố định cho tiêu đề thuộc tính */
+//     margin-right: 10px; /* khoảng cách giữa tiêu đề và giá trị thuộc tính */
+//     font-weight: bold;
+//   }
+  
+//   .attribute-group ul {
+//     display: flex;
+//     flex-wrap: wrap;
+//     list-style: none;
+//     align-items: center;
+//     justify-content: center; /* căn giữa theo chiều ngang */
+//   }
+  
+//   .attribute-group li {
+//     margin-right: 10px; /* khoảng cách giữa các giá trị thuộc tính */
+//     margin-bottom: 10px; /* khoảng cách giữa các nhóm thuộc tính */
+//     align-self: center; /* căn giữa theo chiều dọc */
+//   }
+  
+//   .attribute-group label {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//   }
+  
+//   .attribute-group input {
+//     margin-right: 5px;
+//     align-items: center;
+//     padding-top: 10px;
+//   }
+  
+//   .attribute-group span {
+//     margin-left: 5px;
+//     font-size: large;
+//   }
+
+  .attribute-button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  color: black;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
+
+.attribute-button.selected {
+  background-color: #e84809;
+  color: #fff;
+  border-color: #e84809;
+}
